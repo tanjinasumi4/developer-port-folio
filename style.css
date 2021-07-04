@@ -10,13 +10,14 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .pack{
      width: 50%;
      padding-left: 5%;
 }
 .pack img{
-    width: 80%;
+    width: 60%;
 }
 .new-button{
     text-decoration: none;
@@ -30,4 +31,10 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 200px;
 }
